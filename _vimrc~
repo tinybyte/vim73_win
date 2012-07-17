@@ -34,9 +34,6 @@ set guioptions-=T
 colorscheme molokai
 set noeb vb t_vb=
 set nu
-set wildmode=longest,list,full
-set wildmenu
-
 "##############################################################################                                                                         
 " Easier split navigation                                                                                                                               
 "##############################################################################                                                                         
