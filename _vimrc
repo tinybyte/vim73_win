@@ -36,20 +36,21 @@ set noeb vb t_vb=
 set nu
 set wildmode=longest,list,full
 set wildmenu
-
+set guioptions-=m 
+set lines=50 columns=100
 "##############################################################################                                                                         
 " Easier split navigation                                                                                                                               
 "##############################################################################                                                                         
 
 " Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
-nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
-nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
-nmap <silent> <c-l> :wincmd l<CR>
-
+" nmap <silent> <A-k> :wincmd k<CR>                                                                                                                       
+" nmap <silent> <A-j> :wincmd j<CR>                                                                                                                       
+" nmap <silent> <A-h> :wincmd h<CR>                                                                                                                       
+" nmap <silent> <A-l> :wincmd l<CR>
+" 
 " tab navigation like firefox
-:map <A-Left> :tabprevious<CR>
-:map <A-Right> :tabnext<CR>
+map <A-h> :tabprevious<CR>
+map <A-l> :tabnext<CR>
 
 "##############################################################################                                                                         
 " Scala Settings 
